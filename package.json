@@ -4,7 +4,7 @@
   "description": "A CLI app to fetch the current HTTP status codes from the IANA registry and displays them as JSON.",
   "main": "bin/cli.js",
   "bin": {
-    "http-status-code-registry": "cli.js"
+    "http-status-code-registry": "bin/cli.js"
   },
   "scripts": {
     "build:readme": "readme-md > README.md",
