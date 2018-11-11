@@ -36,10 +36,10 @@ const options = {
 meow(helpText, options);
 
 (async () => {
-	try {
+    try {
         console.log(JSON.stringify(await httpStatusCodeRegistry(), null, 4));
-	} catch (error) {
-		console.error(error);
-		process.exit(1);
-	}
+    } catch (error) {
+        console.error(error);
+        process.exit(1);
+    }
 })();
