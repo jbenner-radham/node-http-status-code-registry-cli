@@ -10,7 +10,7 @@
     "build:readme": "readme-md > README.md",
     "lint": "eslint bin",
     "prepublishOnly": "eslint bin",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"HEADS UP: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
