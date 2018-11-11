@@ -1,0 +1,44 @@
+{
+  "name": "http-status-code-registry-cli",
+  "version": "0.0.0",
+  "description": "A CLI app to fetch the current HTTP status codes from the IANA registry and displays them as JSON.",
+  "main": "bin/cli.js",
+  "bin": {
+    "http-status-code-registry": "cli.js"
+  },
+  "scripts": {
+    "build:readme": "readme-md > README.md",
+    "lint": "eslint bin",
+    "prepublishOnly": "eslint bin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/node-http-status-code-registry-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "codes",
+    "http",
+    "iana",
+    "json",
+    "registry",
+    "status",
+    "stdout"
+  ],
+  "author": "James Benner <james.benner@gmail.com> (http://www.jamesbenner.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/node-http-status-code-registry-cli/issues"
+  },
+  "homepage": "https://github.com/jbenner-radham/node-http-status-code-registry-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "http-status-code-registry": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "meow": "^5.0.0",
+    "readme-md-cli": "^0.11.0"
+  }
+}
