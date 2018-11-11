@@ -1,9 +1,8 @@
 http-status-code-registry-cli
 =============================
-[![npm](https://img.shields.io/npm/v/http-status-code-registry-cli.svg?)](https://www.npmjs.com/package/http-status-code-registry-cli)
-[![node](https://img.shields.io/node/v/http-status-code-registry-cli.svg?)](https://nodejs.org/)
-[![build](https://img.shields.io/travis/jbenner-radham/node-http-status-code-registry-cli.svg?)](https://travis-ci.org/jbenner-radham/node-http-status-code-registry-cli)
-[![license](https://img.shields.io/github/license/jbenner-radham/node-http-status-code-registry-cli.svg?)](LICENSE)
+[![npm](https://img.shields.io/npm/v/http-status-code-registry-cli.svg?style=flat-square)](https://www.npmjs.com/package/http-status-code-registry-cli)
+[![node](https://img.shields.io/node/v/http-status-code-registry-cli.svg?style=flat-square)](https://nodejs.org/)
+[![license](https://img.shields.io/github/license/jbenner-radham/node-http-status-code-registry-cli.svg?style=flat-square)](LICENSE)
 
 A CLI app to fetch the current HTTP status codes from the IANA registry and displays them as JSON.
 

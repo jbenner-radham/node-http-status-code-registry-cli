@@ -1,4 +1,10 @@
 # Config file for [readme-md-cli](https://www.npmjs.com/package/readme-md-cli).
 ---
+badges:
+  style: flat-square
+  render:
+    - license
+    - node.js
+    - npm
 see-also:
   http-status-code-registry @ npm: https://www.npmjs.com/package/http-status-code-registry
