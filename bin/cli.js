@@ -6,9 +6,10 @@ const chalk = require('chalk');
 const httpStatusCodeRegistry = require('http-status-code-registry');
 const meow = require('meow');
 const path = require('path');
-const pkg = require(path.resolve('package.json'));
+const readPkgUp = require('read-pkg-up');
 
 const bin = path.basename(process.argv.slice(1).shift());
+const pkg = readPkgUp.sync({ cwd: __dirname }).pkg || { version: '[UNKNOWN]' };
 const hrLength = ('http-status-code-registry v'.length + pkg.version.length);
 const hr = `${'='.repeat(hrLength)}`;
 const helpText = `
@@ -36,7 +37,7 @@ meow(helpText, options);
 
 (async () => {
 	try {
-		console.log(JSON.stringify(await httpStatusCodeRegistry(), null, 4));
+        console.log(JSON.stringify(await httpStatusCodeRegistry(), null, 4));
 	} catch (error) {
 		console.error(error);
 		process.exit(1);
