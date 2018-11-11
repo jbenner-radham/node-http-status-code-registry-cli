@@ -1,8 +1,8 @@
 ```sh
 $ http-status-code-registry --help
 
-  http-status-code-registry v<MAJOR>.<MINOR>.<PATCH>
-  ==================================================
+  http-status-code-registry v${VERSION}
+  =====================================
   Fetches the current HTTP status codes from the IANA registry and displays
   them as JSON.
 
