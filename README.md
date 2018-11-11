@@ -1,6 +1,7 @@
 http-status-code-registry-cli
 =============================
 [![npm](https://img.shields.io/npm/v/http-status-code-registry-cli.svg?)](https://www.npmjs.com/package/http-status-code-registry-cli)
+[![node](https://img.shields.io/node/v/http-status-code-registry-cli.svg?)](https://nodejs.org/)
 [![build](https://img.shields.io/travis/jbenner-radham/node-http-status-code-registry-cli.svg?)](https://travis-ci.org/jbenner-radham/node-http-status-code-registry-cli)
 [![license](https://img.shields.io/github/license/jbenner-radham/node-http-status-code-registry-cli.svg?)](LICENSE)
 
@@ -9,7 +10,25 @@ A CLI app to fetch the current HTTP status codes from the IANA registry and disp
 Install
 -------
 ```sh
-$ yarn add http-status-code-registry-cli # Or alternatively: `npm install http-status-code-registry-cli`
+$ yarn global add http-status-code-registry-cli # Or alternatively: `npm install --global http-status-code-registry-cli`
+```
+
+Usage
+-----
+```sh
+$ http-status-code-registry --help
+
+  http-status-code-registry v<MAJOR>.<MINOR>.<PATCH>
+  ==================================================
+  Fetches the current HTTP status codes from the IANA registry and displays
+  them as JSON.
+
+  Usage
+      $ http-status-code-registry [OPTIONS]
+
+  Options
+      --help, -h      Display this message.
+      --version, -v   Display the unprefixed application version.
 ```
 
 Testing
