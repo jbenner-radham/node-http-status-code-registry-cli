@@ -34,7 +34,7 @@
   "homepage": "https://github.com/jbenner-radham/node-http-status-code-registry-cli#readme",
   "dependencies": {
     "chalk": "^2.4.1",
-    "http-status-code-registry": "^0.1.0",
+    "http-status-code-registry": "^0.2.0",
     "meow": "^5.0.0"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "readme-md-cli": "^0.11.0"
   },
   "engines": {
-    "node": ">=7.10"
+    "node": ">=18"
   },
   "preferGlobal": true
 }
