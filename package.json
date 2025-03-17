@@ -26,6 +26,9 @@
   "bin": {
     "http-status-code-registry": "bin/cli.js"
   },
+  "files": [
+    "bin"
+  ],
   "scripts": {
     "build:readme": "readme-md > README.md",
     "lint": "eslint bin",
